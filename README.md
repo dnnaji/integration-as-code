@@ -2,6 +2,7 @@
 
 ```
 integration-as-code/
+├── hello-worlds/             # Example integration services
 ├── patterns/                 # Fundamental EIP implementations
 │   ├── content-based-router/
 │   │   ├── java-camel/
