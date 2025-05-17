@@ -5,11 +5,19 @@ integration-as-code/
 ├── patterns/                 # Fundamental EIP implementations
 │   ├── content-based-router/
 │   │   ├── java-camel/
-│   │   ├── kotlin-camel/
+│   │   ├── kotlin-spring-boot/
 │   │   ├── dotnet/
 │   │   └── ballerina/
-│   ├── message-filter/ …
-│   └── transformation/ …
+│   ├── message-filter/
+│   │   ├── java-camel/
+│   │   ├── kotlin-spring-boot/
+│   │   ├── dotnet/
+│   │   └── ballerina/
+│   └── transformation/
+│       ├── java-camel/
+│       ├── kotlin-spring-boot/
+│       ├── dotnet/
+│       └── ballerina/
 ├── composites/               # Higher‑level orchestrations (e.g., Saga)
 │   └── order‑saga/
 │       ├── java-camel/
