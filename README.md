@@ -49,6 +49,21 @@ Each folder is a self‑contained build target that publishes either a JAR, NuGe
 | Ballerina   | **bal 2201.12.3** (Swan Lake U12) |
 | CI          | GitHub Actions                    |                                                             |
 
+### Running the examples
+
+Ensure the toolchain versions above are installed. Execute any sample
+from its language folder with the corresponding command:
+
+```bash
+# Java or Kotlin
+gradle run
+
+# .NET
+dotnet run
+
+# Ballerina
+bal run
+```
 ---
 
 ## 3  Frameworks
