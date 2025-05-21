@@ -14,7 +14,12 @@ integration-as-code/
 │   │   ├── kotlin-spring-boot/
 │   │   ├── dotnet/
 │   │   └── ballerina/
-│   └── transformation/
+│   ├── transformation/
+│   │   ├── java-camel/
+│   │   ├── kotlin-spring-boot/
+│   │   ├── dotnet/
+│   │   └── ballerina/
+│   └── aggregator/
 │       ├── java-camel/
 │       ├── kotlin-spring-boot/
 │       ├── dotnet/
